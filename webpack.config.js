@@ -3,6 +3,7 @@ const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const JSON5 = require('json5');
+const WebExtPlugin = require('web-ext-plugin');
 
 module.exports = {
   module: {
@@ -70,6 +71,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
+    new WebExtPlugin({ sourceDir: 'extension-dist' }),
   ],
   mode: 'development',
   devtool: 'inline-cheap-source-map',
