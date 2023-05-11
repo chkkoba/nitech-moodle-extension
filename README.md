@@ -1,4 +1,5 @@
-# まだなにも触っていないため使えません。お待ち下さい。
+# こちらはMoodle38aバージョンです。しかも改修途中です。なんでやねん
+# moodle40a対応版のFirefox版も[こちら](https://github.com/chqkoba/nitech-moodle-extension-40a)で進行中
 
 # nitech-moodle-extention
 
